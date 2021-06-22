@@ -1,0 +1,200 @@
+.contenedor{
+    padding: 6px;
+    background-color:orange;
+    text-align: center;
+}
+
+h1{
+    margin: 10px;
+    text-decoration: underline;
+}
+
+#resultado{
+    display:flex;
+    justify-content: center;
+}
+
+#parrafo{
+    color:yellow;
+    background-color: maroon;
+    font-size: 32px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 4px;
+    width: 260px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.titulos{
+    margin: 0px 10px;
+    margin-top: 20px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafos-titulos{
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:188px;
+    height: 20px;
+    margin: 0px 20px;
+    padding: 5px 10px;
+}
+
+.jugadores{
+    margin: 0px 10px;
+    padding: 0px;
+    display: flex;
+    justify-content:center;
+}
+
+.parrafos{
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    margin: 0px 20px;
+    padding: 10px;
+    width:180px;
+    height:200px;
+}
+
+.victorias{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.parrafo-victorias{
+    color: white;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px 6px;
+    padding-top: 3px;
+}
+
+#victorias-jugador, #victorias-maquina{
+    text-align: right;
+    font-size: 24px;
+    margin-right: 0px;
+    padding: 0px 9px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    width: 102px;
+    height: 20px;
+}
+
+#titulo-victorias-maquina{
+    margin-left: 40px;
+}
+
+.puntuacion{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.parrafo-puntuacion{
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-top-style: dashed;
+    border-top-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px 6px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+#puntos-jugador, #puntos-maquina{
+    text-align: right;
+    font-size: 24px;
+    margin-right: 1px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+    width: 76px;
+    height: 20px;
+}
+
+.borde-izquierdo{
+    border-bottom-left-radius: 10px;
+}
+
+.borde-derecho{
+    border-bottom-right-radius: 10px;
+}
+
+#titulo-puntuacion-maquina{
+    margin-left: 40px;
+}
+
+.botones-puntos{
+    display: inline-flex;
+    justify-content: left;
+    margin-left: 130px;
+}
+
+.botones{
+    margin-left: 280px;
+}
+
+button{
+    margin: 10px;
+    height: 150px;
+    width: 120px;
+}
+
+.imagenes{
+    height: 130px;
+    width: 100px;
+}
+
+.puntos-aleatorios{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    padding: 0px 15px;
+}
+
+.titulo-juego{
+    margin: 0px;
+    height: 45px;
+    padding: 0px 10px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: black;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.puntos-juego{
+    margin: 0px;
+    height: 45px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+}

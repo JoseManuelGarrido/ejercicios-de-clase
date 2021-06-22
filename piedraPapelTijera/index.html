@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Piedra - Papel - Tijera</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <script>
+        var usuario = 9;
+        var maquina = Math.floor(Math.random()*3);
+        var opciones = ["piedra", "papel", "tijera"];
+
+        if(maquina == 0){
+            maquina = opciones[maquina];
+        }
+        else if(maquina n== 1){
+            maquina = opciones[maquina];
+        }
+        else{
+            maquina = opciones[maquina];
+        }
+
+        usuario = alert("Elija opción: 0, 1, 2");
+
+        if(usuario == 0){
+            usuario = opciones[usuario];
+        }
+        else if(usuario n== 1){
+            usuario = opciones[usuario];
+        }
+        else{
+            usuario = opciones[usuario];
+        }
+
+        if((usuario == "piedra") && (maquina == "piedra")){
+            alert("Empate");
+        }
+        else if((usuario == "piedra") && (maquina == "papel")){
+            alert("Perdiste");
+        }
+        else if((usuario == "piedra") && (maquina == "tijera")){
+            alert("Ganaste");
+        }
+        else if((usuario == "papel") && (maquina == "piedra")){
+            alert("Ganaste");
+        }
+        else if((usuario == "papel") && (maquina == "papel")){
+            alert("Empate");
+        }
+        else if((usuario == "papel") && (maquina == "tijera")){
+            alert("Perdiste");
+        }
+        else if((usuario == "tijera") && (maquina == "piedra")){
+            alert("Perdiste");
+        }
+        else if((usuario == "tijera") && (maquina == "papel")){
+            alert("Ganaste");
+        }
+        else {
+            alert("Empate");
+        }
+
+    </script>
+</body>
+</html>

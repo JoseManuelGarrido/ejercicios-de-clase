@@ -1,0 +1,19 @@
+figure{
+    width: 340px;
+    box-shadow: 8px 8px 12px darkgray ;
+}
+
+#belmont{
+    width: 340px;
+    height: 300px;
+}
+
+#piebelmont{
+    padding-top: 25px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#parrafobelmont{
+    padding-left: 10px;
+}

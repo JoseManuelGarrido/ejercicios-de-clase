@@ -1,0 +1,34 @@
+body{
+    width: 1240px;
+    height: 750px;
+    margin: 0px auto;
+}
+
+article{
+    background-color: firebrick;
+    height: 590px;
+    padding: 60px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    float: right;
+    list-style-type: none;
+    background-color: white;
+    padding: 5px 10px;
+    width: 440px;
+    height: 40px;
+    align-items: center;
+}
+
+li{
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: darkslategray;
+    height: 100px;
+    padding: 20px;
+}

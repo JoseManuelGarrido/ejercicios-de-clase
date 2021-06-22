@@ -1,0 +1,33 @@
+.midiv{
+    border:1px solid;
+    border-color: tomato;
+    width:30%;
+}
+
+h3{
+    background-color:tomato;
+    color:white;
+    text-align: center;
+    padding:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin:0px;
+}
+
+#cabeceramenu{
+    text-decoration-line: underline;
+}
+
+.mimenu{
+    font-size: 17px;
+    padding-left: 60px;
+}
+
+.recipiente{
+    padding:20px;
+}
+
+.menu{
+    padding-left:40px;
+}
+

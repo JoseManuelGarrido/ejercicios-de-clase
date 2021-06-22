@@ -1,0 +1,30 @@
+body{
+    background-color:blueviolet;
+}
+
+p{
+    color:cornsilk;
+}
+
+h1{
+    text-decoration-line:underline;
+}
+
+#identificador{
+    color:orange;
+    text-decoration-line: line-through;
+}
+
+.miparrafo{
+    color:springgreen;
+    font-size: 34px;
+}
+
+#midiv{
+    background-color:brown;
+}
+
+.parrafos{
+    background-color: cadetblue;
+    display:inline-block;
+}

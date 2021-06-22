@@ -1,0 +1,15 @@
+.grid{
+    background-color:white;
+    color:white;
+    font-size:30px;
+    display:grid;
+    grid-template-columns:90px 90px 90px;
+    grid-template-rows:60px 60px 50px;
+    grid-column-gap:6px;
+    grid-row-gap:6px;
+  }
+  
+  div{
+    background-color:purple;
+    padding:6px;
+  }

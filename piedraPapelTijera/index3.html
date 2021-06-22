@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Piedra - Papel - Tijera</title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1>Piedra - Papel - Tijeras</h1>
+        <div id="resultado"><p id="parrafo">¿  -  -  -  ?</p></div>
+        <div class="titulos">
+            <p id="titulo-jugador" class="parrafos-titulos">Jugador</p>
+            <p id="titulo-maquina" class="parrafos-titulos">Máquina</p>
+        </div>
+        <div class="jugadores">
+            <p id="jugador" class="parrafos"></p>
+            <p id="maquina" class="parrafos"></p>
+        </div>
+
+        <div class="victorias">
+            <p id="titulo-victorias-jugador" class="parrafo-victorias">Victorias: </p>
+            <p id="victorias-jugador" class="parrafo-victorias">0</p>
+            <p id="titulo-victorias-maquina" class="parrafo-victorias">Victorias: </p>
+            <p id="victorias-maquina" class="parrafo-victorias">0</p>
+        </div>
+
+        <div class="puntuacion">
+            <p id="titulo-puntuacion-jugador" class="parrafo-puntuacion borde-izquierdo">Puntuación: </p>
+            <p id="puntos-jugador" class="parrafo-puntuacion borde-derecho">0</p>
+            <p id="titulo-puntuacion-maquina" class="parrafo-puntuacion borde-izquierdo">Puntuación: </p>
+            <p id="puntos-maquina" class="parrafo-puntuacion borde-derecho">0</p>
+        </div>
+
+        <div class="botones-puntos">
+            <div class="botones">
+                <button class="boton boton-piedra">
+                    <img class="imagenes" src="piedra.png">
+                </button>
+                <button class="boton boton-papel">
+                    <img class="imagenes" src="papel.png">
+                </button>
+                <button class="boton boton-tijeras">
+                    <img class="imagenes" src="tijeras.png">
+                </button>
+            </div>
+
+            <div class="puntos-aleatorios">
+                <p class="titulo-juego">Puntos en juego</p>
+                <p id="puntos-juego" class="puntos-juego">Null</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+    <script src="app.js"></script>
+
+</html>

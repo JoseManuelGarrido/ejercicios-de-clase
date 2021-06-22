@@ -1,0 +1,61 @@
+.page{
+    background-color:darkgrey;
+    height:420px;
+    padding:0px 60px;
+  }
+  
+  header{
+    text-align:center;
+  }
+  
+  .tarjeta{
+    background-color:white;
+    display:grid;
+    grid-template-columns:1fr 2fr;
+    text-align:center;
+    align-items:center;
+  }
+  
+  .foto{
+    background-image:url(https://www.toptal.com/designers/subtlepatterns/patterns/congruent_pentagon.png);
+    height:200px;
+    padding:15px 10px;
+    display:grid;
+    align-items:center;
+  }
+  
+  .frase{
+    display:grid;
+    align-items:center;
+    justify-content:center;
+    color:green;
+    font-size:20px;
+    font-family:monospace;
+  }
+  
+  .boton{
+    background-color:darkcyan;
+    border-radius:8px;
+    padding:10px 15px;
+    font-family:sans-serif;
+    font-weight:bold;
+  }
+  
+  .texto{
+    padding:10px 15px;
+  }
+  
+  #contenedor-texto{
+    display:flex;
+    justify-content:center;
+  }
+  
+  h1{
+    font-size:50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:20px 0px;
+    padding:10px 15px;
+    border-color:black;
+    border-left-style:solid;
+    width:500px;
+  }

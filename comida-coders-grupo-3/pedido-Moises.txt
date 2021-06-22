@@ -1,0 +1,11 @@
+Plato de entrada:
+    Ensaladilla Rusa.
+
+Plato principal:
+    Macarrones.
+
+Postre:
+    Helado.
+
+Bebida:
+    Tinto de Verano.

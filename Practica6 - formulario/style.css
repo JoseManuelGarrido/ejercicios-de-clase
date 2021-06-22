@@ -1,0 +1,27 @@
+
+form{
+    width: 460px;
+}
+
+p{
+    margin:0px;
+}
+
+.campo{
+    border-color: red;
+    border-width: thin;
+}
+
+.campo2{
+    border-width: thin;
+}
+
+#boton{
+    margin: 15px 0px;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+
+}

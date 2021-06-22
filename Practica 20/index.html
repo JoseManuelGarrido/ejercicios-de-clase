@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica pseudo 20</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+        <form name="formulario" method="POST">
+            <fieldset>
+                <legend>¿Tienes carné de conducir?</legend>
+                <input type="radio" name="respuesta" required> Sí
+                <input type="radio" name="respuesta" required> No
+            </fieldset>
+            <p>
+                <label for="nombre">¿Cuál es tu nombre?</label>
+                <input type="text" minlength="4" maxlength="30" required>
+            </p>
+            <p>
+                <label for="edad">¿Qué edad tienes?</label>
+                <input type="number">
+            </p>
+            <p>
+                <label for="color">Elige un color</label>
+                <input type="color">
+            </p>
+            <p>
+                <label for="fruta">¿Cuál es tu fruta favorita?</label>
+                <input list="frutas" type="text" required>
+                <datalist id="frutas">
+                    <option value="Plátano"></option>
+                    <option value="Manzana"></option>
+                    <option value="Pera"></option>
+                    <option value="Naranja"></option>
+                    <option value="Fresa"></option>
+                    <option value="Piña"></option>
+                </datalist>
+            </p>
+            <p>
+                <label for="email">¿Cuál es tu dirección de correo electrónico?</label>
+                <input type="text" minlength="5" maxlength="50" required>
+            </p>
+            <p>
+                <label for="mensaje">Deja tu mensaje</label>
+                <textarea name="text-area" rows="5" required>
+                </textarea>
+            </p>
+            <p>
+                <label for="validacion">No olvides la validación (texto solo lectura)
+                <input type="text" width="20" placeholder="validado" readonly>
+            </p>
+            <p>
+                <label for="numero">Número (campo deshabilitado)</label>
+                <input type="number" disabled readonly>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </body>
+
+</html>
